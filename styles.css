@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2px;
+    transition: all 0.5s ease;
+    position: absolute;
+}
+
+body , html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0d1b2a, #070707, #0d1b2a, #575060);
+}
+
+h1{ 
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
